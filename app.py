@@ -25,3 +25,5 @@ if st.button("Predict"):
     prediction =  model.predict(input_data)
     classes =  ['Setosa', 'Versicolor', 'Virginica']
     st.success(f" Prediction: {classes[prediction[0]]}")
+
+# this streamlit_app is used to predict the type of flowers based on the input data
